@@ -1,0 +1,47 @@
+# FastAPI and ASGI
+fastapi==0.104.1              # Modern Python web framework for building APIs
+uvicorn[standard]==0.24.0     # ASGI server to run FastAPI applications
+
+# Database
+sqlalchemy==2.0.23            # Object-Relational Mapping (ORM) for database operations
+alembic==1.12.1               # Database migration tool for SQLAlchemy
+psycopg2-binary==2.9.9        # PostgreSQL database driver/connector
+asyncpg==0.29.0               # Async PostgreSQL driver for better performance
+
+# Authentication & Security
+python-jose[cryptography]==3.3.0  # JWT token creation and verification
+passlib[bcrypt]==1.7.4             # Password hashing and verification
+python-multipart==0.0.6            # Handle form data and file uploads
+
+# Validation & Serialization
+pydantic==2.5.0               # Data validation and serialization
+pydantic-settings==2.1.0     # Configuration management with environment variables
+email-validator==2.1.0       # Email address validation
+
+# Environment & Configuration
+python-dotenv==1.0.0         # Load environment variables from .env files
+
+# Redis & Caching (for future features)
+redis==5.0.1                 # Redis client for caching and sessions
+celery==5.3.4                # Background task processing
+
+# File Handling
+python-magic==0.4.27         # File type detection for uploads
+pillow==10.1.0               # Image processing for profile pictures
+
+# HTTP Client
+httpx==0.25.2                # Modern HTTP client for external API calls
+
+# Development Tools
+pytest==7.4.3               # Testing framework
+pytest-asyncio==0.21.1      # Async testing support
+black==23.11.0               # Code formatting
+isort==5.12.0                # Import sorting
+flake8==6.1.0                # Code linting
+mypy==1.7.1                  # Type checking
+
+# Monitoring & Logging
+structlog==23.2.0            # Structured logging
+
+# CORS
+fastapi-cors==0.0.6          # Cross-Origin Resource Sharing support
